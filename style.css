@@ -1,0 +1,75 @@
+a {
+  text-decoration: none;
+}
+.Nav-Wrap {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: 100;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.024) 0px 10px 15px;
+}
+.Nav-NavtopWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+}
+.Nav-logo {
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.Nav-LogoImg {
+  width: 150px;
+}
+.Nav-NavWrap {
+  display: flex;
+  width: 100%;
+  padding-left: 5px;
+}
+.Nav-item {
+  margin: 0px;
+  padding: 15px 10px 15px 15px;
+  font-size: 14px;
+}
+.Nav-NavtopRight {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 30px 0px;
+}
+.login {
+  font-size: 13px;
+  padding: 4px 12px;
+  border: 1px solid rgb(255, 100, 118);
+  border-radius: 50px;
+  color: rgb(255, 100, 118);
+}
+.review-Wrap {
+  padding: 100px 0px 0px;
+  width: 100%;
+}
+.review-TitleWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 20px 0px 0px;
+}
+.Title {
+  margin: 0px 0px 0px 20px;
+  font-weight: 600;
+}
+.review-PostEditIconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  background-color: rgb(255, 100, 118);
+  border-radius: 8px;
+}
+.review-PostEditText {
+  margin: 3px 0px 0px 5px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
